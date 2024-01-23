@@ -13,6 +13,14 @@
             <span class="font-italic font-semibold">The Challenged</span>.
           </p>
         </PvFieldset>
+        <PvFieldset legend="Fixed Terms" class="mt-6">
+          <p>DataTable goes here
+          </p>
+        </PvFieldset>
+        <PvFieldset legend="Fate Terms" class="mt-6">
+          <p>DataTable goes here
+          </p>
+        </PvFieldset>
       </template>
     </PvCard>
   </div>

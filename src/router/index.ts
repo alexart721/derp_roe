@@ -19,7 +19,17 @@ const router = createRouter({
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import('../views/CreateRoEView.vue')
+      component: () => import('@/views/CreateRoEView.vue'),
+    },
+    {
+      path: '/archived',
+      name: 'archived',
+      component: () => import('@/views/ArchivedRoEsView.vue'),
+    },
+    {
+      path: '/in-progress',
+      name: 'in-progress',
+      component: () => import('@/views/InProgressRoEsView.vue'),
     }
   ]
 })

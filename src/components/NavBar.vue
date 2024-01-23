@@ -39,12 +39,12 @@ const menubarNavItems = ref([
             {
                 label: 'Continue RoE',
                 icon: 'pi pi-play',
-                route: '/about',
+                route: '/in-progress',
             },
             {
                 label: 'Archived RoEs',
                 icon: 'pi pi-pencil',
-                route: '/about',
+                route: '/archived',
             }
         ]
     }
