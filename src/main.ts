@@ -13,6 +13,7 @@ import router from '@/router';
 // Import PrimeVue components - begin
 import Button from 'primevue/button';
 import Card from 'primevue/card';
+import Chip from 'primevue/chip';
 import Column from 'primevue/column';
 import ColumnGroup from 'primevue/columngroup';
 import DataTable from 'primevue/datatable';
@@ -39,6 +40,7 @@ app.use(ToastService);
 // Register PrimeVue components - begin
 app.component('PvButton', Button);
 app.component('PvCard', Card);
+app.component('PvChip', Chip);
 app.component('PvColumn', Column);
 app.component('PvColumnGroup', ColumnGroup);
 app.component('PvDataTable', DataTable);
