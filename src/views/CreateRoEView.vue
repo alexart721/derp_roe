@@ -6,12 +6,12 @@
         in addition to the names of the participants listed, hereby establish the Rules of Engagement for this Challenge.</p>
       <PvFieldset legend="Participants" class="mt-6">
         <p>This Challenge, with its terms defined in the following sections, is hereby issued by 
-          <PvInputText type="text" size="small" placeholder="Challenger" v-model="challenger" />, henceforth known as the
+          <PvInputText id="challengerName" type="text" size="small" placeholder="Challenger" v-model="challenger" />, henceforth known as the
           <span class="font-italic font-semibold">Challenger</span>, at email address
-          <PvInputText type="text" size="small" placeholder="Challenger Email" v-model="challengerEmail" />, to
-          <PvInputText type="text" size="small" placeholder="Challenged" v-model="challenged" />, henceforth known as the
+          <PvInputText id="challengerEmail" type="text" size="small" placeholder="Challenger Email" v-model="challengerEmail" />, to
+          <PvInputText id="challengedName" type="text" size="small" placeholder="Challenged" v-model="challenged" />, henceforth known as the
           <span class="font-italic font-semibold">Challenged</span>, at email address
-          <PvInputText type="text" size="small" placeholder="Challenged Email" v-model="challengedEmail" />.
+          <PvInputText id="challengedEmail" type="text" size="small" placeholder="Challenged Email" v-model="challengedEmail" />.
         </p>
       </PvFieldset>
       <PvFieldset legend="Fixed Terms" class="mt-6">
