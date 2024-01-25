@@ -43,7 +43,7 @@ const menubarNavItems = ref([
             },
             {
                 label: 'Archived RoEs',
-                icon: 'pi pi-pencil',
+                icon: 'pi pi-history',
                 route: '/archived',
             }
         ]
